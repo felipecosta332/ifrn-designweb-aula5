@@ -1,0 +1,43 @@
+html, body {
+    height: 100%;
+    width: 100%;
+}
+* {
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#main {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+#left {
+    background-color: red;
+    float: left;
+    height: 120vh;
+    width: 20%;
+    bottom: 0;
+}
+#center {
+    background-color: lightgray;
+    float: left;
+    height: 120vh;
+    width: 60%;
+    bottom: 0;
+}
+#center h1 {
+    padding: 2vh;
+}
+#center label {
+    margin: 3vh;
+}
+#right {
+    background-color: green;
+    float: left;
+    height: 120vh;
+    width: 20%;
+    bottom: 0;
+}
